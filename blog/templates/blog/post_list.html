@@ -18,5 +18,11 @@
             <h2><a href="">2番目の投稿</a></h2>
             <p> こんにちは！ よろしくお願いします！ </p>
         </div>
+
+        <div>
+            {% for post in posts %}
+                <p>{{ post }}</p>
+            {% endfor %}
+        </div>
     </body>
 </html>
